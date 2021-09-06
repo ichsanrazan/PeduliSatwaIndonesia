@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenish"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_home"
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo_home2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_home" />
+
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:text="@string/home"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/welcome"
+        app:layout_constraintStart_toStartOf="@+id/welcome"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/login"
+        android:letterSpacing=".125"
+        android:backgroundTint="@color/dark_green"
+
+        app:layout_constraintEnd_toEndOf="@+id/tv_home"
+        app:layout_constraintStart_toStartOf="@+id/tv_home"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

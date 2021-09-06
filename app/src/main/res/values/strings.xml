@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Peduli Satwa Indonesia</string>
+    <string name="detail_species">Species</string>
+    <string name="detail_status">Status</string>
+    <string name="overview">Overview</string>
+    <string name="habitat">Habitat</string>
+    <string name="habitat_detail">Habitat Detail</string>
+    <string name="population">Populasi</string>
+    <string name="population_detail">Population Detail</string>
+    <string name="overview_detail">Overview Detail</string>
+    <string name="poster">Poster</string>
+    <string name="species">Species</string>
+    <string name="animal_name">Animal Name</string>
+    <string name="threat">Ancaman</string>
+    <string name="login">DAFTAR HEWAN LANGKA</string>
+    <string name="welcome">SELAMAT DATANG</string>
+    <string name="home">Aplikasi ini merupakan Aplikasi Informasi tentang Hewan yang dikategorikan terancam punah di Indonesia oleh IUCN. Hewan berikut merupakan hewan yang dilindungi berdasarkan Undang-undang Nomor 5 Tahun 1990 tentang Konservasi Sumber Daya Alam dan Ekosistemnya. Dengan adanya aplikasi ini diharapkan dapat meningkatkan kesadaran Masyarakat Indonesia untuk menjaga dan melestarikan alam di Negara Kita.</string>
+
+    <string name="about">About</string>
+    <string name="name_me">Muhammad Ichsan Razan</string>
+    <string name="email_me">ichsanrazan33@gmail.com</string>
+    <string name="check_instagram">Cek Instagram</string>
+    <string name="change_language_settings">Language Settings</string>
+
+    <string name="web">Informasi Lebih Lanjut</string>
+
+</resources>
