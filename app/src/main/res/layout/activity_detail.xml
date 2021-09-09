@@ -215,13 +215,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="150dp"
                         android:scaleType="fitCenter"
+                        android:clickable="true"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/tv_detail_threat"
                         app:layout_constraintVertical_bias="0.382"
-                        tools:srcCompat="@drawable/map_badakjawa" />
+                        tools:srcCompat="@drawable/map_badakjawa"
+                        android:focusable="true" />
 
                     <Button
                         android:id="@+id/btn_web"
